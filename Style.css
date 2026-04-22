@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    flex-direction: row; /*ou colum*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+    gap: 16px;
+}
