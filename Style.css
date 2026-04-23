@@ -1,7 +1,88 @@
-.container {
+/*BODY*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(81, 18, 18);
+}
+
+
+/*MENU*/
+.menu{
+    background-color: #b1b1b1;
     display: flex;
-    flex-direction: row; /*ou colum*/
-    justify-content: center; /*alinhamento horizontal*/
-    align-items: center; /*alinhamento vertical*/
-    gap: 16px;
+    justify-content: center;
+}
+
+.menu a {
+    color: #505050;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a:active {
+    color: black;
+}
+
+/*CORPO PRINCIPAL DO SITE*/
+
+.main{
+    padding: 0px 0px 10px 0px;
+}
+.main_image{/*Editando a imagem da página principal*/
+    display: flex;
+    padding: 10px 0;
+    background-color: #cbcbcb;
+    justify-content: center;
+    border-radius: 2px;
+}
+.main_image img{/*Editando a imagem da página principal*/
+    border-radius: 20px;
+    border-right: 8px solid rgba(148, 148, 148, 0.516);
+    border-bottom: 10px solid rgba(74, 74, 74, 0.516);;
+    margin: 10px;
+    width: 25%;
+}
+
+.main_image img:active {/*Tratando a ação de clicar na imagem (apenas para aprofundar conhecimento)*/
+    border-right: 0px;
+    border-bottom: 0px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+
+.presentation_text {/*Texto de presentação*/
+    color: white;
+    background-color: rgb(73, 73, 73);
+    padding: 10px 50px;
+    margin: 80px 50px 5px 50px;;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.steps {/*Lista ordenada de etapas*/
+    color: white;
+    background-color: rgb(73, 73, 73);
+    padding: 10px 50px;
+    margin: 5px 50px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/*CONFIGURANDO O RODAPÉ*/
+footer{
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.351);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
