@@ -44,8 +44,12 @@ body{
     justify-content: center;
 }
 
-.check_box label{ /*Checkbox*/
+.box label{ /*Checkbox e radio*/
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    margin-bottom: 10px;
 }
 
 /*Rodapé do site*/
